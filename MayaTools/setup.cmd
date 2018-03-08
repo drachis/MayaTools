@@ -1,0 +1,2 @@
+setx PYTHONPATH %~dp0;%PYTHONPATH% /M
+PAUSE
