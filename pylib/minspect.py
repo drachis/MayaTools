@@ -1,5 +1,5 @@
 import maya.standalone
-maya.standalone.initialize()
+maya.standalone.initialize(name='python')
 import pymel.core as pmc
 import sys
 
@@ -17,3 +17,5 @@ def info(obj):
 		lines.append('  ' + a.name())
 	result = '\n'.join(lines)
 	print result
+
+print "Maya Py Env Setup", syspath()

@@ -1,3 +1,3 @@
-set PATH=%PATH%;c:\Program Files\Autodesk\Maya2014\bin
-set PYTHONPATH=%PYTHONPATH%;c:\projects\mayapybook\pylib
+set PATH=%MAYA_LOCATION%;%PATH%
+set PYTHONPATH=%cd%\pylib;%PYTHONPATH%
 start mayapy
